@@ -18,16 +18,21 @@ _knee_recs_path = os.path.join(_app_dir, 'data', 'knee_recommendations.csv')
 @app.route('/api/hip-data', methods=['GET'])
 def get_hip_data():
     try:
-        df = pd.read_csv(_hip_data_path)
-        recs_df = pd.read_csv(_hip_recs_path)
+        df = pd.read_csv(_hip_data_path, dtype={'Patient_ID': str})
+        recs_df = pd.read_csv(_hip_recs_path, dtype={'Patient_ID': str})
+        
+        recs_df['Recommendation'] = recs_df['Parameter'] + ': ' + recs_df['Modification']
+        agg_recs = recs_df.groupby('Patient_ID')['Recommendation'].apply(lambda x: ' / '.join(x)).reset_index()
+
         with open(_hip_results_path, 'r') as f:
             results = json.load(f)
         
-        # Merge recommendations into the main dataframe
-        df = pd.merge(df, recs_df, on='Patient_ID')
+        df = pd.merge(df, agg_recs, on='Patient_ID', how='left')
+        
+        if 'Pattern type' in df.columns:
+            df.rename(columns={'Pattern type': 'Predicted_Pattern'}, inplace=True)
 
-        # Replace NaN with None for JSON compatibility
-        df.fillna(value=pd.NA, inplace=True)
+        df.fillna('', inplace=True)
 
         return jsonify({
             'patient_data': df.to_dict(orient='records'),
@@ -39,16 +44,23 @@ def get_hip_data():
 @app.route('/api/knee-data', methods=['GET'])
 def get_knee_data():
     try:
-        df = pd.read_csv(_knee_data_path)
-        recs_df = pd.read_csv(_knee_recs_path)
+        df = pd.read_csv(_knee_data_path, dtype={'Patient_ID': str})
+        recs_df = pd.read_csv(_knee_recs_path, dtype={'Patient_ID': str})
+        
         with open(_knee_results_path, 'r') as f:
             results = json.load(f)
 
-        # Merge recommendations into the main dataframe
-        df = pd.merge(df, recs_df, on='Patient_ID')
-        
-        # Replace NaN with None for JSON compatibility
-        df.fillna(value=pd.NA, inplace=True)
+        if 'Parameter' in recs_df.columns and 'Modification' in recs_df.columns:
+             recs_df['Recommendation'] = recs_df['Parameter'] + ': ' + recs_df['Modification']
+             agg_recs = recs_df.groupby('Patient_ID')['Recommendation'].apply(lambda x: ' / '.join(x)).reset_index()
+             df = pd.merge(df, agg_recs, on='Patient_ID', how='left')
+        else:
+             df = pd.merge(df, recs_df, on='Patient_ID', how='left')
+
+        if 'Pattern type' in df.columns:
+            df.rename(columns={'Pattern type': 'Predicted_Pattern'}, inplace=True)
+
+        df.fillna('', inplace=True)
 
         return jsonify({
             'patient_data': df.to_dict(orient='records'),
