@@ -78,7 +78,7 @@ const HipDashboard: React.FC = () => {
               <YAxis />
               <Tooltip />
               <Legend />
-              <Bar dataKey="ROM-Flex" name="ROM-Flex Score">
+              <Bar dataKey="hip flexion active ROM" name="Hip Flexion Active ROM">
                 {patients.map((entry: any) => (
                   <Cell 
                     key={`cell-${entry.Patient_ID}`} 

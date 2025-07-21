@@ -17,33 +17,45 @@ _knee_recs_path = os.path.join(_app_dir, 'data', 'knee_recommendations.csv')
 
 @app.route('/api/hip-data', methods=['GET'])
 def get_hip_data():
-    df = pd.read_csv(_hip_data_path)
-    recs_df = pd.read_csv(_hip_recs_path)
-    with open(_hip_results_path, 'r') as f:
-        results = json.load(f)
-    
-    # Merge recommendations into the main dataframe
-    df = pd.merge(df, recs_df, on='Patient_ID')
+    try:
+        df = pd.read_csv(_hip_data_path)
+        recs_df = pd.read_csv(_hip_recs_path)
+        with open(_hip_results_path, 'r') as f:
+            results = json.load(f)
+        
+        # Merge recommendations into the main dataframe
+        df = pd.merge(df, recs_df, on='Patient_ID')
 
-    return jsonify({
-        'patient_data': df.to_dict(orient='records'),
-        'model_results': results
-    })
+        # Replace NaN with None for JSON compatibility
+        df.fillna(value=pd.NA, inplace=True)
+
+        return jsonify({
+            'patient_data': df.to_dict(orient='records'),
+            'model_results': results
+        })
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
 
 @app.route('/api/knee-data', methods=['GET'])
 def get_knee_data():
-    df = pd.read_csv(_knee_data_path)
-    recs_df = pd.read_csv(_knee_recs_path)
-    with open(_knee_results_path, 'r') as f:
-        results = json.load(f)
+    try:
+        df = pd.read_csv(_knee_data_path)
+        recs_df = pd.read_csv(_knee_recs_path)
+        with open(_knee_results_path, 'r') as f:
+            results = json.load(f)
 
-    # Merge recommendations into the main dataframe
-    df = pd.merge(df, recs_df, on='Patient_ID')
+        # Merge recommendations into the main dataframe
+        df = pd.merge(df, recs_df, on='Patient_ID')
+        
+        # Replace NaN with None for JSON compatibility
+        df.fillna(value=pd.NA, inplace=True)
 
-    return jsonify({
-        'patient_data': df.to_dict(orient='records'),
-        'model_results': results
-    })
+        return jsonify({
+            'patient_data': df.to_dict(orient='records'),
+            'model_results': results
+        })
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
 
 if __name__ == '__main__':
     app.run(debug=True)
