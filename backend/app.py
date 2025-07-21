@@ -23,7 +23,7 @@ def get_hip_data():
         results = json.load(f)
     
     # Merge recommendations into the main dataframe
-    df = pd.merge(df, recs_df, on='Patient')
+    df = pd.merge(df, recs_df, on='Patient_ID')
 
     return jsonify({
         'patient_data': df.to_dict(orient='records'),
@@ -38,7 +38,7 @@ def get_knee_data():
         results = json.load(f)
 
     # Merge recommendations into the main dataframe
-    df = pd.merge(df, recs_df, on='Patient')
+    df = pd.merge(df, recs_df, on='Patient_ID')
 
     return jsonify({
         'patient_data': df.to_dict(orient='records'),

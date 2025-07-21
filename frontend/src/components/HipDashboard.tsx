@@ -57,15 +57,15 @@ const HipDashboard: React.FC = () => {
           <ResponsiveContainer width="100%" height={400}>
             <BarChart data={patients}>
               <CartesianGrid strokeDasharray="3 3" />
-              <XAxis dataKey="Patient" />
+              <XAxis dataKey="Patient_ID" />
               <YAxis />
               <Tooltip />
               <Legend />
               <Bar dataKey="ROM-Flex" name="ROM-Flex Score">
                 {patients.map((entry: any) => (
                   <Cell 
-                    key={`cell-${entry.Patient}`} 
-                    fill={activePatient === entry.Patient ? '#ffc658' : '#8884d8'} 
+                    key={`cell-${entry.Patient_ID}`} 
+                    fill={activePatient === entry.Patient_ID ? '#ffc658' : '#8884d8'} 
                   />
                 ))}
               </Bar>
@@ -79,7 +79,7 @@ const HipDashboard: React.FC = () => {
             <table className="min-w-full divide-y divide-gray-200">
               <thead className="bg-gray-50">
                 <tr>
-                  <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Patient</th>
+                  <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Patient ID</th>
                   <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Prediction</th>
                   <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Recommendation</th>
                 </tr>
@@ -87,11 +87,11 @@ const HipDashboard: React.FC = () => {
               <tbody className="bg-white divide-y divide-gray-200">
                 {patients.map((patient: any) => (
                   <tr 
-                    key={patient.Patient} 
-                    onClick={() => setActivePatient(patient.Patient)}
-                    className={`cursor-pointer ${activePatient === patient.Patient ? 'bg-yellow-100' : 'hover:bg-gray-50'}`}
+                    key={patient.Patient_ID} 
+                    onClick={() => setActivePatient(patient.Patient_ID)}
+                    className={`cursor-pointer ${activePatient === patient.Patient_ID ? 'bg-yellow-100' : 'hover:bg-gray-50'}`}
                   >
-                    <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">{patient.Patient}</td>
+                    <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">{patient.Patient_ID}</td>
                     <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{patient.Predicted_Pattern}</td>
                     <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{patient.Recommendation}</td>
                   </tr>
