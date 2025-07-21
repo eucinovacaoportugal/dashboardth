@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, Cell } from 'recharts';
 
 interface HipData {
   patient_data: any[];
@@ -9,6 +9,7 @@ interface HipData {
 
 const HipDashboard: React.FC = () => {
   const [hipData, setHipData] = useState<HipData | null>(null);
+  const [activePatient, setActivePatient] = useState<string | null>(null);
 
   useEffect(() => {
     axios.get('http://127.0.0.1:5000/api/hip-data')
@@ -31,6 +32,7 @@ const HipDashboard: React.FC = () => {
       <h2 className="text-2xl font-semibold mb-4 text-gray-800">Hip Rehabilitation Insights</h2>
       
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
+        {/* Metric Cards */}
         <div className="bg-blue-100 p-4 rounded-lg text-center">
           <h3 className="text-lg font-bold text-blue-800">F1 Score</h3>
           <p className="text-2xl font-semibold text-blue-900">{(results.cv_results.f1_score * 100).toFixed(2)}%</p>
@@ -49,18 +51,55 @@ const HipDashboard: React.FC = () => {
         </div>
       </div>
 
-      <div>
-        <h3 className="text-xl font-semibold mb-2 text-gray-700">Patient ROM-Flex Score Distribution</h3>
-        <ResponsiveContainer width="100%" height={400}>
-          <BarChart data={patients}>
-            <CartesianGrid strokeDasharray="3 3" />
-            <XAxis dataKey="Patient" />
-            <YAxis />
-            <Tooltip />
-            <Legend />
-            <Bar dataKey="ROM-Flex" fill="#8884d8" name="ROM-Flex Score" />
-          </BarChart>
-        </ResponsiveContainer>
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <div>
+          <h3 className="text-xl font-semibold mb-2 text-gray-700">Patient ROM-Flex Score</h3>
+          <ResponsiveContainer width="100%" height={400}>
+            <BarChart data={patients}>
+              <CartesianGrid strokeDasharray="3 3" />
+              <XAxis dataKey="Patient" />
+              <YAxis />
+              <Tooltip />
+              <Legend />
+              <Bar dataKey="ROM-Flex" name="ROM-Flex Score">
+                {patients.map((entry: any) => (
+                  <Cell 
+                    key={`cell-${entry.Patient}`} 
+                    fill={activePatient === entry.Patient ? '#ffc658' : '#8884d8'} 
+                  />
+                ))}
+              </Bar>
+            </BarChart>
+          </ResponsiveContainer>
+        </div>
+
+        <div className="overflow-x-auto">
+          <h3 className="text-xl font-semibold mb-2 text-gray-700">Patient Recommendations</h3>
+          <div className="overflow-y-auto h-96 border rounded-lg">
+            <table className="min-w-full divide-y divide-gray-200">
+              <thead className="bg-gray-50">
+                <tr>
+                  <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Patient</th>
+                  <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Prediction</th>
+                  <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Recommendation</th>
+                </tr>
+              </thead>
+              <tbody className="bg-white divide-y divide-gray-200">
+                {patients.map((patient: any) => (
+                  <tr 
+                    key={patient.Patient} 
+                    onClick={() => setActivePatient(patient.Patient)}
+                    className={`cursor-pointer ${activePatient === patient.Patient ? 'bg-yellow-100' : 'hover:bg-gray-50'}`}
+                  >
+                    <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">{patient.Patient}</td>
+                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{patient.Predicted_Pattern}</td>
+                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{patient.Recommendation}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
       </div>
     </div>
   );
