@@ -1,0 +1,23 @@
+{
+    "model_name": "Random Forest (max_features=log2)",
+    "target_column": "Pattern type",
+    "cv_results": {
+        "f1_score": 0.9875,
+        "roc_auc": 0.9933333333333334,
+        "accuracy": 0.9789473684210528
+    },
+    "validation_results": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "roc_auc": 1.0
+    },
+    "dataset_info": {
+        "total_samples": 123,
+        "train_samples": 98,
+        "validation_samples": 25,
+        "numeric_features": 43,
+        "categorical_features": 0
+    }
+}

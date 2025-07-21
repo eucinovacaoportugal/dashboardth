@@ -47,9 +47,8 @@ def create_dataset(num_patients):
     all_patient_data = []
     for i in range(1, num_patients + 1):
         all_patient_data.extend(generate_patient_data(f'PAT_{i:04d}'))
-        
-    df = pd.DataFrame(all_patient_data)
-    return df
+
+    return pd.DataFrame(all_patient_data)
 
 if __name__ == "__main__":
     patient_dataset = create_dataset(num_patients)
