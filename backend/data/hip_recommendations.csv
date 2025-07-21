@@ -1,185 +1,185 @@
 Patient_ID,Initial_Probability,Final_Probability,Used_8_Weeks_Fallback,Step,Parameter,Modification,Current_Value,Target_Value,Probability_Improvement
-43,0.15,0.57,False,1,Time up and go test,Aumento 20%,18.0,21.599999999999998,0.12000000000000002
-43,0.15,0.57,False,2,Berg Balance test,Aumento 70%,15.0,25.5,0.12
-43,0.15,0.57,False,3,6 Minute Walk Test,Aumento 10%,350.0,385.00000000000006,0.09999999999999998
-43,0.15,0.57,False,4,MMT hip extensors strength,Aumento 70%,2.0,3.4,0.07999999999999996
-44,0.1,0.5,False,1,Berg Balance test,Aumento 100%,20.0,40.0,0.18999999999999997
-44,0.1,0.5,False,2,% muscle strength deficit compared with the non-surgical limb (global strength),Riduzione 90%,30.0,3.0,0.11000000000000004
-44,0.1,0.5,False,3,Sensory-motor control (Romberg test),Aumento 100%,6.0,12.0,0.09999999999999998
-45,0.15,0.53,False,1,Hip Functional measure (HOOS -JR),Aumento 20%,66.0,79.2,0.12000000000000002
-45,0.15,0.53,False,2,hip extension active ROM,Aumento 50%,5.0,7.5,0.09999999999999998
-45,0.15,0.53,False,3,Time up and go test,Aumento 20%,18.0,21.599999999999998,0.09000000000000002
-45,0.15,0.53,False,4,% muscle strength deficit compared with the non-surgical limb (global strength),Riduzione 70%,20.0,6.0,0.07
-46,0.08,0.52,False,1,% muscle strength deficit compared with the non-surgical limb (global strength),Riduzione 50%,15.0,7.5,0.11
-46,0.08,0.52,False,2,Hip Functional measure (HOOS -JR),Aumento 30%,61.0,79.3,0.08000000000000002
-46,0.08,0.52,False,3,hip flexion active ROM,Aumento 30%,90.0,117.0,0.07999999999999996
-46,0.08,0.52,False,4,Berg Balance test,Aumento 100%,23.0,46.0,0.08000000000000002
-46,0.08,0.52,False,5,Pain at rest (NRSP 0-10),Riduzione 2 punti,2.0,0.0,0.04999999999999999
-46,0.08,0.52,False,6,Sensory-motor control (Romberg test),Aumento 50%,11.0,16.5,0.040000000000000036
-47,0.1,0.51,False,1,Hip Functional measure (HOOS -JR),Aumento 20%,66.0,79.2,0.15
-47,0.1,0.51,False,2,Time up and go test,Aumento 50%,16.0,24.0,0.13
-47,0.1,0.51,False,3,% muscle strength deficit compared with the non-surgical limb (global strength),Riduzione 70%,20.0,6.0,0.07
-47,0.1,0.51,False,4,Pain at rest (NRSP 0-10),Riduzione 2 punti,2.0,0.0,0.06
-48,0.08,0.54,False,1,hip abduction active ROM,Aumento 100%,15.0,30.0,0.13
-48,0.08,0.54,False,2,Sensory-motor control (Romberg test),Aumento 50%,12.0,18.0,0.1
-48,0.08,0.54,False,3,Hip Functional measure (HOOS -JR),Aumento 10%,68.0,74.80000000000001,0.09999999999999998
-48,0.08,0.54,False,4,% muscle strength deficit compared with the non-surgical limb (global strength),Riduzione 50%,15.0,7.5,0.08000000000000002
-48,0.08,0.54,False,5,hip flexion active ROM,Aumento 20%,95.0,114.0,0.050000000000000044
-49,0.12,0.53,False,1,% muscle strength deficit compared with the non-surgical limb (global strength),Riduzione 70%,25.0,7.5,0.11000000000000001
-49,0.12,0.53,False,2,hip flexion active ROM,Aumento 30%,85.0,110.5,0.1
-49,0.12,0.53,False,3,Hip Functional measure (HOOS -JR),Aumento 30%,61.0,79.3,0.08999999999999997
-49,0.12,0.53,False,4,Sensory-motor control (Romberg test),Aumento 20%,14.0,16.8,0.06
-49,0.12,0.53,False,5,hip extension active ROM,Aumento 50%,5.0,7.5,0.050000000000000044
-50,0.05,0.47,True,N/A,TARGET_NOT_REACHABLE,Cannot reach threshold,,,0.0
-51,0.02,0.53,False,1,Sensory-motor control (Romberg test),Aumento 100%,8.0,16.0,0.11
-51,0.02,0.53,False,2,6 Minute Walk Test,Aumento 50%,330.0,495.0,0.1
-51,0.02,0.53,False,3,Time up and go test,Aumento 20%,19.0,22.8,0.07999999999999999
-51,0.02,0.53,False,4,Pain at activity (NRSP 0-10),Riduzione 5 punti,8.0,3.0,0.08000000000000002
-51,0.02,0.53,False,5,Berg Balance test,Aumento 100%,12.0,24.0,0.06
-51,0.02,0.53,False,6,MMT hip extensors strength,Aumento 70%,2.0,3.4,0.03999999999999998
-51,0.02,0.53,False,7,Berg Balance test,Aumento 30%,24.0,31.200000000000003,0.040000000000000036
-52,0.07,0.52,False,1,% muscle strength deficit compared with the non-surgical limb (global strength),Riduzione 90%,30.0,3.0,0.10999999999999999
-52,0.07,0.52,False,2,Berg Balance test,Aumento 50%,17.0,25.5,0.09000000000000002
-52,0.07,0.52,False,3,hip flexion active ROM,Aumento 50%,80.0,120.0,0.06
-52,0.07,0.52,False,4,Sensory-motor control (Romberg test),Aumento 70%,6.0,10.2,0.06
-52,0.07,0.52,False,5,hip abduction active ROM,Aumento 30%,10.0,13.0,0.03999999999999998
-52,0.07,0.52,False,6,hip abduction active ROM,Aumento 100%,13.0,26.0,0.03999999999999998
-52,0.07,0.52,False,7,Sensory-motor control (Romberg test),Aumento 70%,10.2,17.34,0.050000000000000044
-53,0.13,0.52,False,1,hip abduction active ROM,Aumento 100%,15.0,30.0,0.14
-53,0.13,0.52,False,2,hip extension active ROM,Aumento 50%,5.0,7.5,0.09999999999999998
-53,0.13,0.52,False,3,Hip Functional measure (HOOS -JR),Aumento 20%,64.0,76.8,0.08000000000000002
-53,0.13,0.52,False,4,% muscle strength deficit compared with the non-surgical limb (global strength),Riduzione 70%,20.0,6.0,0.07
-54,0.01,0.45,True,N/A,TARGET_NOT_REACHABLE,Cannot reach threshold,,,0.0
-55,0.05,0.51,False,1,Time up and go test,Aumento 30%,17.0,22.1,0.11
-55,0.05,0.51,False,2,Hip Functional measure (HOOS -JR),Aumento 20%,64.0,76.8,0.09
-55,0.05,0.51,False,3,% muscle strength deficit compared with the non-surgical limb (global strength),Riduzione 70%,20.0,6.0,0.08000000000000002
-55,0.05,0.51,False,4,hip abduction active ROM,Aumento 30%,20.0,26.0,0.07
-55,0.05,0.51,False,5,Pain at rest (NRSP 0-10),Riduzione 2 punti,2.0,0.0,0.03999999999999998
-55,0.05,0.51,False,6,hip flexion active ROM,Aumento 50%,80.0,120.0,0.02999999999999997
-55,0.05,0.51,False,7,hip medial rotation active ROM,Aumento 30%,5.0,6.5,0.040000000000000036
-56,0.01,0.5,False,1,hip abduction active ROM,Aumento 30%,20.0,26.0,0.13999999999999999
-56,0.01,0.5,False,2,Hip Functional measure (HOOS -JR),Aumento 10%,66.0,72.60000000000001,0.11000000000000001
-56,0.01,0.5,False,3,% muscle strength deficit compared with the non-surgical limb (global strength),Riduzione 50%,15.0,7.5,0.09999999999999998
-56,0.01,0.5,False,4,Sensory-motor control (Romberg test),Aumento 100%,12.0,24.0,0.09000000000000002
-56,0.01,0.5,False,5,MMT hip flexors strength,Aumento 20%,4.0,4.8,0.04999999999999999
-57,0.22,0.51,False,1,hip abduction active ROM,Aumento 100%,15.0,30.0,0.15
-57,0.22,0.51,False,2,% muscle strength deficit compared with the non-surgical limb (global strength),Riduzione 70%,25.0,7.5,0.09999999999999998
-57,0.22,0.51,False,3,hip flexion active ROM,Aumento 30%,90.0,117.0,0.040000000000000036
-58,0.0,0.43,True,N/A,TARGET_NOT_REACHABLE,Cannot reach threshold,,,0.0
-59,0.01,0.51,False,1,% muscle strength deficit compared with the non-surgical limb (global strength),Riduzione 50%,15.0,7.5,0.13
-59,0.01,0.51,False,2,hip abduction active ROM,Aumento 20%,22.0,26.4,0.07999999999999999
-59,0.01,0.51,False,3,hip flexion active ROM,Aumento 20%,100.0,120.0,0.060000000000000026
-59,0.01,0.51,False,4,hip medial rotation active ROM,Aumento 30%,5.0,6.5,0.04999999999999999
-59,0.01,0.51,False,5,Pain at rest (NRSP 0-10),Riduzione 2 punti,2.0,0.0,0.04999999999999999
-59,0.01,0.51,False,6,hip medial rotation active ROM,Aumento 70%,6.5,11.049999999999999,0.03999999999999998
-59,0.01,0.51,False,7,Berg Balance test,Aumento 70%,27.0,45.9,0.040000000000000036
-59,0.01,0.51,False,8,Pain at activity (NRSP 0-10),Riduzione 1 punto,4.0,3.0,0.02999999999999997
-59,0.01,0.51,False,9,Time up and go test,Aumento 100%,12.0,24.0,0.020000000000000018
-60,0.02,0.51,False,1,% muscle strength deficit compared with the non-surgical limb (global strength),Riduzione 50%,15.0,7.5,0.13
-60,0.02,0.51,False,2,hip abduction active ROM,Aumento 20%,22.0,26.4,0.07
-60,0.02,0.51,False,3,hip flexion active ROM,Aumento 20%,100.0,120.0,0.060000000000000026
-60,0.02,0.51,False,4,hip medial rotation active ROM,Aumento 30%,5.0,6.5,0.04999999999999999
-60,0.02,0.51,False,5,Pain at rest (NRSP 0-10),Riduzione 2 punti,2.0,0.0,0.04999999999999999
-60,0.02,0.51,False,6,hip medial rotation active ROM,Aumento 70%,6.5,11.049999999999999,0.03999999999999998
-60,0.02,0.51,False,7,Berg Balance test,Aumento 70%,27.0,45.9,0.040000000000000036
-60,0.02,0.51,False,8,Pain at activity (NRSP 0-10),Riduzione 1 punto,4.0,3.0,0.02999999999999997
-60,0.02,0.51,False,9,Time up and go test,Aumento 100%,12.0,24.0,0.020000000000000018
-104,0.18,0.51,False,1,Time up and go test,Aumento 20%,18.0,21.599999999999998,0.12
-104,0.18,0.51,False,2,Berg Balance test,Aumento 70%,15.0,25.5,0.10999999999999999
-104,0.18,0.51,False,3,6 Minute Walk Test,Aumento 10%,350.0,385.00000000000006,0.10000000000000003
-105,0.06,0.54,False,1,Berg Balance test,Aumento 100%,20.0,40.0,0.17
-105,0.06,0.54,False,2,% muscle strength deficit compared with the non-surgical limb (global strength),Riduzione 90%,30.0,3.0,0.11999999999999997
-105,0.06,0.54,False,3,Sensory-motor control (Romberg test),Aumento 100%,6.0,12.0,0.10000000000000003
-105,0.06,0.54,False,4,Sensory-motor control (Romberg test),Aumento 30%,12.0,15.600000000000001,0.09000000000000002
-106,0.17,0.51,False,1,Hip Functional measure (HOOS -JR),Aumento 20%,66.0,79.2,0.11000000000000001
-106,0.17,0.51,False,2,hip extension active ROM,Aumento 50%,5.0,7.5,0.07999999999999996
-106,0.17,0.51,False,3,Time up and go test,Aumento 20%,18.0,21.599999999999998,0.08000000000000002
-106,0.17,0.51,False,4,% muscle strength deficit compared with the non-surgical limb (global strength),Riduzione 70%,20.0,6.0,0.07
-107,0.03,0.5,False,1,% muscle strength deficit compared with the non-surgical limb (global strength),Riduzione 50%,15.0,7.5,0.12
-107,0.03,0.5,False,2,hip flexion active ROM,Aumento 30%,90.0,117.0,0.07
-107,0.03,0.5,False,3,Hip Functional measure (HOOS -JR),Aumento 30%,61.0,79.3,0.06999999999999998
-107,0.03,0.5,False,4,Berg Balance test,Aumento 100%,23.0,46.0,0.07
-107,0.03,0.5,False,5,Pain at rest (NRSP 0-10),Riduzione 2 punti,2.0,0.0,0.04999999999999999
-107,0.03,0.5,False,6,Sensory-motor control (Romberg test),Aumento 50%,11.0,16.5,0.030000000000000027
-107,0.03,0.5,False,7,Pain at activity (NRSP 0-10),Riduzione 1 punto,4.0,3.0,0.02999999999999997
-107,0.03,0.5,False,8,MMT hip extensors strength,Aumento 20%,4.0,4.8,0.020000000000000018
-107,0.03,0.5,False,9,MMT hip abductors strength,Aumento 20%,4.0,4.8,0.010000000000000009
-108,0.07,0.5,False,1,% muscle strength deficit compared with the non-surgical limb (global strength),Riduzione 50%,15.0,7.5,0.10999999999999999
-108,0.07,0.5,False,2,hip flexion active ROM,Aumento 30%,90.0,117.0,0.07
-108,0.07,0.5,False,3,Hip Functional measure (HOOS -JR),Aumento 30%,61.0,79.3,0.07
-108,0.07,0.5,False,4,Berg Balance test,Aumento 100%,23.0,46.0,0.07
-108,0.07,0.5,False,5,Pain at rest (NRSP 0-10),Riduzione 2 punti,2.0,0.0,0.04999999999999999
-108,0.07,0.5,False,6,Sensory-motor control (Romberg test),Aumento 50%,11.0,16.5,0.02999999999999997
-108,0.07,0.5,False,7,Pain at activity (NRSP 0-10),Riduzione 1 punto,4.0,3.0,0.030000000000000027
-109,0.15,0.52,False,1,Hip Functional measure (HOOS -JR),Aumento 20%,66.0,79.2,0.17
-109,0.15,0.52,False,2,Time up and go test,Aumento 30%,16.0,20.8,0.08000000000000002
-109,0.15,0.52,False,3,Pain at rest (NRSP 0-10),Riduzione 2 punti,2.0,0.0,0.06999999999999995
-109,0.15,0.52,False,4,hip abductors strength,Aumento 20%,125.0,150.0,0.050000000000000044
-110,0.04,0.52,False,1,hip abduction active ROM,Aumento 100%,15.0,30.0,0.10999999999999999
-110,0.04,0.52,False,2,Sensory-motor control (Romberg test),Aumento 100%,12.0,24.0,0.09
-110,0.04,0.52,False,3,Hip Functional measure (HOOS -JR),Aumento 10%,68.0,74.80000000000001,0.09000000000000002
-110,0.04,0.52,False,4,% muscle strength deficit compared with the non-surgical limb (global strength),Riduzione 50%,15.0,7.5,0.08999999999999997
-110,0.04,0.52,False,5,Time up and go test,Aumento 20%,18.0,21.599999999999998,0.06
-110,0.04,0.52,False,6,MMT hip flexors strength,Aumento 20%,4.0,4.8,0.040000000000000036
-111,0.07,0.5,False,1,% muscle strength deficit compared with the non-surgical limb (global strength),Riduzione 70%,25.0,7.5,0.10999999999999999
-111,0.07,0.5,False,2,hip flexion active ROM,Aumento 30%,85.0,110.5,0.09000000000000002
-111,0.07,0.5,False,3,Hip Functional measure (HOOS -JR),Aumento 30%,61.0,79.3,0.08999999999999997
-111,0.07,0.5,False,4,hip extension active ROM,Aumento 50%,5.0,7.5,0.04999999999999999
-111,0.07,0.5,False,5,Sensory-motor control (Romberg test),Aumento 20%,14.0,16.8,0.050000000000000044
-111,0.07,0.5,False,6,hip lateral rotation active ROM,Aumento 30%,10.0,13.0,0.03999999999999998
-112,0.04,0.45,True,N/A,TARGET_NOT_REACHABLE,Cannot reach threshold,,,0.0
-113,0.02,0.52,False,1,Sensory-motor control (Romberg test),Aumento 100%,8.0,16.0,0.11
-113,0.02,0.52,False,2,6 Minute Walk Test,Aumento 50%,330.0,495.0,0.1
-113,0.02,0.52,False,3,Time up and go test,Aumento 20%,19.0,22.8,0.07999999999999999
-113,0.02,0.52,False,4,Pain at activity (NRSP 0-10),Riduzione 5 punti,8.0,3.0,0.07
-113,0.02,0.52,False,5,Berg Balance test,Aumento 100%,12.0,24.0,0.06
-113,0.02,0.52,False,6,MMT hip extensors strength,Aumento 70%,2.0,3.4,0.03999999999999998
-113,0.02,0.52,False,7,Berg Balance test,Aumento 30%,24.0,31.200000000000003,0.040000000000000036
-114,0.07,0.52,False,1,% muscle strength deficit compared with the non-surgical limb (global strength),Riduzione 90%,30.0,3.0,0.10999999999999999
-114,0.07,0.52,False,2,Berg Balance test,Aumento 50%,17.0,25.5,0.09000000000000002
-114,0.07,0.52,False,3,hip flexion active ROM,Aumento 50%,80.0,120.0,0.06
-114,0.07,0.52,False,4,Sensory-motor control (Romberg test),Aumento 70%,6.0,10.2,0.06
-114,0.07,0.52,False,5,hip abduction active ROM,Aumento 30%,10.0,13.0,0.03999999999999998
-114,0.07,0.52,False,6,hip abduction active ROM,Aumento 100%,13.0,26.0,0.03999999999999998
-114,0.07,0.52,False,7,Sensory-motor control (Romberg test),Aumento 70%,10.2,17.34,0.050000000000000044
-115,0.06,0.52,False,1,hip abduction active ROM,Aumento 100%,15.0,30.0,0.11000000000000001
-115,0.06,0.52,False,2,hip extension active ROM,Aumento 50%,5.0,7.5,0.1
-115,0.06,0.52,False,3,% muscle strength deficit compared with the non-surgical limb (global strength),Riduzione 70%,20.0,6.0,0.07999999999999996
-115,0.06,0.52,False,4,Hip Functional measure (HOOS -JR),Aumento 20%,64.0,76.8,0.07
-115,0.06,0.52,False,5,Time up and go test,Aumento 20%,19.0,22.8,0.06
-115,0.06,0.52,False,6,hip medial rotation active ROM,Aumento 30%,5.0,6.5,0.040000000000000036
-116,0.0,0.44,True,N/A,TARGET_NOT_REACHABLE,Cannot reach threshold,,,0.0
-117,0.07,0.53,False,1,Hip Functional measure (HOOS -JR),Aumento 20%,64.0,76.8,0.10999999999999999
-117,0.07,0.53,False,2,hip flexion active ROM,Aumento 50%,80.0,120.0,0.08000000000000002
-117,0.07,0.53,False,3,% muscle strength deficit compared with the non-surgical limb (global strength),Riduzione 50%,20.0,10.0,0.07
-117,0.07,0.53,False,4,Time up and go test,Aumento 20%,17.0,20.4,0.06
-117,0.07,0.53,False,5,Pain at rest (NRSP 0-10),Riduzione 2 punti,2.0,0.0,0.04999999999999999
-117,0.07,0.53,False,6,hip abduction active ROM,Aumento 30%,20.0,26.0,0.04999999999999999
-117,0.07,0.53,False,7,hip medial rotation active ROM,Aumento 30%,5.0,6.5,0.040000000000000036
-118,0.01,0.5,False,1,hip abduction active ROM,Aumento 30%,20.0,26.0,0.13999999999999999
-118,0.01,0.5,False,2,Hip Functional measure (HOOS -JR),Aumento 10%,66.0,72.60000000000001,0.11000000000000001
-118,0.01,0.5,False,3,% muscle strength deficit compared with the non-surgical limb (global strength),Riduzione 50%,15.0,7.5,0.09999999999999998
-118,0.01,0.5,False,4,Sensory-motor control (Romberg test),Aumento 100%,12.0,24.0,0.09000000000000002
-118,0.01,0.5,False,5,MMT hip flexors strength,Aumento 20%,4.0,4.8,0.04999999999999999
-119,0.13,0.52,False,1,hip abduction active ROM,Aumento 100%,15.0,30.0,0.16999999999999998
-119,0.13,0.52,False,2,% muscle strength deficit compared with the non-surgical limb (global strength),Riduzione 70%,25.0,7.5,0.10000000000000003
-119,0.13,0.52,False,3,hip flexion active ROM,Aumento 30%,90.0,117.0,0.04999999999999999
-119,0.13,0.52,False,4,Sensory-motor control (Romberg test),Aumento 20%,14.0,16.8,0.03999999999999998
-119,0.13,0.52,False,5,Berg Balance test,Aumento 50%,30.0,45.0,0.030000000000000027
-120,0.0,0.42,True,N/A,TARGET_NOT_REACHABLE,Cannot reach threshold,,,0.0
-121,0.04,0.5,False,1,hip abduction active ROM,Aumento 20%,22.0,26.4,0.12
-121,0.04,0.5,False,2,% muscle strength deficit compared with the non-surgical limb (global strength),Riduzione 50%,15.0,7.5,0.09
-121,0.04,0.5,False,3,hip flexion active ROM,Aumento 20%,100.0,120.0,0.04999999999999999
-121,0.04,0.5,False,4,Hip Functional measure (HOOS -JR),Aumento 20%,66.0,79.2,0.06
-121,0.04,0.5,False,5,hip medial rotation active ROM,Aumento 30%,5.0,6.5,0.04999999999999999
-121,0.04,0.5,False,6,Pain at rest (NRSP 0-10),Riduzione 2 punti,2.0,0.0,0.050000000000000044
-121,0.04,0.5,False,7,hip medial rotation active ROM,Aumento 70%,6.5,11.049999999999999,0.03999999999999998
-122,0.01,0.5,False,1,% muscle strength deficit compared with the non-surgical limb (global strength),Riduzione 50%,15.0,7.5,0.12000000000000001
-122,0.01,0.5,False,2,hip abduction active ROM,Aumento 20%,22.0,26.4,0.07999999999999999
-122,0.01,0.5,False,3,hip flexion active ROM,Aumento 20%,100.0,120.0,0.05000000000000002
-122,0.01,0.5,False,4,Hip Functional measure (HOOS -JR),Aumento 20%,66.0,79.2,0.03999999999999998
-122,0.01,0.5,False,5,Pain at rest (NRSP 0-10),Riduzione 3 punti,3.0,0.0,0.04999999999999999
-122,0.01,0.5,False,6,hip medial rotation active ROM,Aumento 30%,5.0,6.5,0.040000000000000036
-122,0.01,0.5,False,7,hip medial rotation active ROM,Aumento 70%,6.5,11.049999999999999,0.03999999999999998
-122,0.01,0.5,False,8,Berg Balance test,Aumento 70%,27.0,45.9,0.03999999999999998
-122,0.01,0.5,False,9,Pain at activity (NRSP 0-10),Riduzione 3 punti,6.0,3.0,0.030000000000000027
+43,0.15,0.57,False,1.0,Time up and go test,Aumento 20%,18.0,21.6,0.12
+43,0.15,0.57,False,2.0,Berg Balance test,Aumento 70%,15.0,25.5,0.12
+43,0.15,0.57,False,3.0,6 Minute Walk Test,Aumento 10%,350.0,385.00000000000006,0.0999999999999999
+43,0.15,0.57,False,4.0,MMT hip extensors strength,Aumento 70%,2.0,3.4,0.0799999999999999
+44,0.1,0.5,False,1.0,Berg Balance test,Aumento 100%,20.0,40.0,0.1899999999999999
+44,0.1,0.5,False,2.0,% muscle strength deficit compared with the non-surgical limb (global strength),Riduzione 90%,30.0,3.0,0.11
+44,0.1,0.5,False,3.0,Sensory-motor control (Romberg test),Aumento 100%,6.0,12.0,0.0999999999999999
+45,0.15,0.53,False,1.0,Hip Functional measure (HOOS -JR),Aumento 20%,66.0,79.2,0.12
+45,0.15,0.53,False,2.0,hip extension active ROM,Aumento 50%,5.0,7.5,0.0999999999999999
+45,0.15,0.53,False,3.0,Time up and go test,Aumento 20%,18.0,21.6,0.09
+45,0.15,0.53,False,4.0,% muscle strength deficit compared with the non-surgical limb (global strength),Riduzione 70%,20.0,6.0,0.07
+46,0.08,0.52,False,1.0,% muscle strength deficit compared with the non-surgical limb (global strength),Riduzione 50%,15.0,7.5,0.11
+46,0.08,0.52,False,2.0,Hip Functional measure (HOOS -JR),Aumento 30%,61.0,79.3,0.08
+46,0.08,0.52,False,3.0,hip flexion active ROM,Aumento 30%,90.0,117.0,0.0799999999999999
+46,0.08,0.52,False,4.0,Berg Balance test,Aumento 100%,23.0,46.0,0.08
+46,0.08,0.52,False,5.0,Pain at rest (NRSP 0-10),Riduzione 2 punti,2.0,0.0,0.0499999999999999
+46,0.08,0.52,False,6.0,Sensory-motor control (Romberg test),Aumento 50%,11.0,16.5,0.04
+47,0.1,0.51,False,1.0,Hip Functional measure (HOOS -JR),Aumento 20%,66.0,79.2,0.15
+47,0.1,0.51,False,2.0,Time up and go test,Aumento 50%,16.0,24.0,0.13
+47,0.1,0.51,False,3.0,% muscle strength deficit compared with the non-surgical limb (global strength),Riduzione 70%,20.0,6.0,0.07
+47,0.1,0.51,False,4.0,Pain at rest (NRSP 0-10),Riduzione 2 punti,2.0,0.0,0.06
+48,0.08,0.54,False,1.0,hip abduction active ROM,Aumento 100%,15.0,30.0,0.13
+48,0.08,0.54,False,2.0,Sensory-motor control (Romberg test),Aumento 50%,12.0,18.0,0.1
+48,0.08,0.54,False,3.0,Hip Functional measure (HOOS -JR),Aumento 10%,68.0,74.80000000000001,0.0999999999999999
+48,0.08,0.54,False,4.0,% muscle strength deficit compared with the non-surgical limb (global strength),Riduzione 50%,15.0,7.5,0.08
+48,0.08,0.54,False,5.0,hip flexion active ROM,Aumento 20%,95.0,114.0,0.05
+49,0.12,0.53,False,1.0,% muscle strength deficit compared with the non-surgical limb (global strength),Riduzione 70%,25.0,7.5,0.11
+49,0.12,0.53,False,2.0,hip flexion active ROM,Aumento 30%,85.0,110.5,0.1
+49,0.12,0.53,False,3.0,Hip Functional measure (HOOS -JR),Aumento 30%,61.0,79.3,0.0899999999999999
+49,0.12,0.53,False,4.0,Sensory-motor control (Romberg test),Aumento 20%,14.0,16.8,0.06
+49,0.12,0.53,False,5.0,hip extension active ROM,Aumento 50%,5.0,7.5,0.05
+50,0.05,0.47,True,,TARGET_NOT_REACHABLE,Cannot reach threshold,,,0.0
+51,0.02,0.53,False,1.0,Sensory-motor control (Romberg test),Aumento 100%,8.0,16.0,0.11
+51,0.02,0.53,False,2.0,6 Minute Walk Test,Aumento 50%,330.0,495.0,0.1
+51,0.02,0.53,False,3.0,Time up and go test,Aumento 20%,19.0,22.8,0.0799999999999999
+51,0.02,0.53,False,4.0,Pain at activity (NRSP 0-10),Riduzione 5 punti,8.0,3.0,0.08
+51,0.02,0.53,False,5.0,Berg Balance test,Aumento 100%,12.0,24.0,0.06
+51,0.02,0.53,False,6.0,MMT hip extensors strength,Aumento 70%,2.0,3.4,0.0399999999999999
+51,0.02,0.53,False,7.0,Berg Balance test,Aumento 30%,24.0,31.200000000000003,0.04
+52,0.07,0.52,False,1.0,% muscle strength deficit compared with the non-surgical limb (global strength),Riduzione 90%,30.0,3.0,0.1099999999999999
+52,0.07,0.52,False,2.0,Berg Balance test,Aumento 50%,17.0,25.5,0.09
+52,0.07,0.52,False,3.0,hip flexion active ROM,Aumento 50%,80.0,120.0,0.06
+52,0.07,0.52,False,4.0,Sensory-motor control (Romberg test),Aumento 70%,6.0,10.2,0.06
+52,0.07,0.52,False,5.0,hip abduction active ROM,Aumento 30%,10.0,13.0,0.0399999999999999
+52,0.07,0.52,False,6.0,hip abduction active ROM,Aumento 100%,13.0,26.0,0.0399999999999999
+52,0.07,0.52,False,7.0,Sensory-motor control (Romberg test),Aumento 70%,10.2,17.34,0.05
+53,0.13,0.52,False,1.0,hip abduction active ROM,Aumento 100%,15.0,30.0,0.14
+53,0.13,0.52,False,2.0,hip extension active ROM,Aumento 50%,5.0,7.5,0.0999999999999999
+53,0.13,0.52,False,3.0,Hip Functional measure (HOOS -JR),Aumento 20%,64.0,76.8,0.08
+53,0.13,0.52,False,4.0,% muscle strength deficit compared with the non-surgical limb (global strength),Riduzione 70%,20.0,6.0,0.07
+54,0.01,0.45,True,,TARGET_NOT_REACHABLE,Cannot reach threshold,,,0.0
+55,0.05,0.51,False,1.0,Time up and go test,Aumento 30%,17.0,22.1,0.11
+55,0.05,0.51,False,2.0,Hip Functional measure (HOOS -JR),Aumento 20%,64.0,76.8,0.09
+55,0.05,0.51,False,3.0,% muscle strength deficit compared with the non-surgical limb (global strength),Riduzione 70%,20.0,6.0,0.08
+55,0.05,0.51,False,4.0,hip abduction active ROM,Aumento 30%,20.0,26.0,0.07
+55,0.05,0.51,False,5.0,Pain at rest (NRSP 0-10),Riduzione 2 punti,2.0,0.0,0.0399999999999999
+55,0.05,0.51,False,6.0,hip flexion active ROM,Aumento 50%,80.0,120.0,0.0299999999999999
+55,0.05,0.51,False,7.0,hip medial rotation active ROM,Aumento 30%,5.0,6.5,0.04
+56,0.01,0.5,False,1.0,hip abduction active ROM,Aumento 30%,20.0,26.0,0.1399999999999999
+56,0.01,0.5,False,2.0,Hip Functional measure (HOOS -JR),Aumento 10%,66.0,72.60000000000001,0.11
+56,0.01,0.5,False,3.0,% muscle strength deficit compared with the non-surgical limb (global strength),Riduzione 50%,15.0,7.5,0.0999999999999999
+56,0.01,0.5,False,4.0,Sensory-motor control (Romberg test),Aumento 100%,12.0,24.0,0.09
+56,0.01,0.5,False,5.0,MMT hip flexors strength,Aumento 20%,4.0,4.8,0.0499999999999999
+57,0.22,0.51,False,1.0,hip abduction active ROM,Aumento 100%,15.0,30.0,0.15
+57,0.22,0.51,False,2.0,% muscle strength deficit compared with the non-surgical limb (global strength),Riduzione 70%,25.0,7.5,0.0999999999999999
+57,0.22,0.51,False,3.0,hip flexion active ROM,Aumento 30%,90.0,117.0,0.04
+58,0.0,0.43,True,,TARGET_NOT_REACHABLE,Cannot reach threshold,,,0.0
+59,0.01,0.51,False,1.0,% muscle strength deficit compared with the non-surgical limb (global strength),Riduzione 50%,15.0,7.5,0.13
+59,0.01,0.51,False,2.0,hip abduction active ROM,Aumento 20%,22.0,26.4,0.0799999999999999
+59,0.01,0.51,False,3.0,hip flexion active ROM,Aumento 20%,100.0,120.0,0.06
+59,0.01,0.51,False,4.0,hip medial rotation active ROM,Aumento 30%,5.0,6.5,0.0499999999999999
+59,0.01,0.51,False,5.0,Pain at rest (NRSP 0-10),Riduzione 2 punti,2.0,0.0,0.0499999999999999
+59,0.01,0.51,False,6.0,hip medial rotation active ROM,Aumento 70%,6.5,11.05,0.0399999999999999
+59,0.01,0.51,False,7.0,Berg Balance test,Aumento 70%,27.0,45.9,0.04
+59,0.01,0.51,False,8.0,Pain at activity (NRSP 0-10),Riduzione 1 punto,4.0,3.0,0.0299999999999999
+59,0.01,0.51,False,9.0,Time up and go test,Aumento 100%,12.0,24.0,0.02
+60,0.02,0.51,False,1.0,% muscle strength deficit compared with the non-surgical limb (global strength),Riduzione 50%,15.0,7.5,0.13
+60,0.02,0.51,False,2.0,hip abduction active ROM,Aumento 20%,22.0,26.4,0.07
+60,0.02,0.51,False,3.0,hip flexion active ROM,Aumento 20%,100.0,120.0,0.06
+60,0.02,0.51,False,4.0,hip medial rotation active ROM,Aumento 30%,5.0,6.5,0.0499999999999999
+60,0.02,0.51,False,5.0,Pain at rest (NRSP 0-10),Riduzione 2 punti,2.0,0.0,0.0499999999999999
+60,0.02,0.51,False,6.0,hip medial rotation active ROM,Aumento 70%,6.5,11.05,0.0399999999999999
+60,0.02,0.51,False,7.0,Berg Balance test,Aumento 70%,27.0,45.9,0.04
+60,0.02,0.51,False,8.0,Pain at activity (NRSP 0-10),Riduzione 1 punto,4.0,3.0,0.0299999999999999
+60,0.02,0.51,False,9.0,Time up and go test,Aumento 100%,12.0,24.0,0.02
+104,0.18,0.51,False,1.0,Time up and go test,Aumento 20%,18.0,21.6,0.12
+104,0.18,0.51,False,2.0,Berg Balance test,Aumento 70%,15.0,25.5,0.1099999999999999
+104,0.18,0.51,False,3.0,6 Minute Walk Test,Aumento 10%,350.0,385.00000000000006,0.1
+105,0.06,0.54,False,1.0,Berg Balance test,Aumento 100%,20.0,40.0,0.17
+105,0.06,0.54,False,2.0,% muscle strength deficit compared with the non-surgical limb (global strength),Riduzione 90%,30.0,3.0,0.1199999999999999
+105,0.06,0.54,False,3.0,Sensory-motor control (Romberg test),Aumento 100%,6.0,12.0,0.1
+105,0.06,0.54,False,4.0,Sensory-motor control (Romberg test),Aumento 30%,12.0,15.6,0.09
+106,0.17,0.51,False,1.0,Hip Functional measure (HOOS -JR),Aumento 20%,66.0,79.2,0.11
+106,0.17,0.51,False,2.0,hip extension active ROM,Aumento 50%,5.0,7.5,0.0799999999999999
+106,0.17,0.51,False,3.0,Time up and go test,Aumento 20%,18.0,21.6,0.08
+106,0.17,0.51,False,4.0,% muscle strength deficit compared with the non-surgical limb (global strength),Riduzione 70%,20.0,6.0,0.07
+107,0.03,0.5,False,1.0,% muscle strength deficit compared with the non-surgical limb (global strength),Riduzione 50%,15.0,7.5,0.12
+107,0.03,0.5,False,2.0,hip flexion active ROM,Aumento 30%,90.0,117.0,0.07
+107,0.03,0.5,False,3.0,Hip Functional measure (HOOS -JR),Aumento 30%,61.0,79.3,0.0699999999999999
+107,0.03,0.5,False,4.0,Berg Balance test,Aumento 100%,23.0,46.0,0.07
+107,0.03,0.5,False,5.0,Pain at rest (NRSP 0-10),Riduzione 2 punti,2.0,0.0,0.0499999999999999
+107,0.03,0.5,False,6.0,Sensory-motor control (Romberg test),Aumento 50%,11.0,16.5,0.03
+107,0.03,0.5,False,7.0,Pain at activity (NRSP 0-10),Riduzione 1 punto,4.0,3.0,0.0299999999999999
+107,0.03,0.5,False,8.0,MMT hip extensors strength,Aumento 20%,4.0,4.8,0.02
+107,0.03,0.5,False,9.0,MMT hip abductors strength,Aumento 20%,4.0,4.8,0.01
+108,0.07,0.5,False,1.0,% muscle strength deficit compared with the non-surgical limb (global strength),Riduzione 50%,15.0,7.5,0.1099999999999999
+108,0.07,0.5,False,2.0,hip flexion active ROM,Aumento 30%,90.0,117.0,0.07
+108,0.07,0.5,False,3.0,Hip Functional measure (HOOS -JR),Aumento 30%,61.0,79.3,0.07
+108,0.07,0.5,False,4.0,Berg Balance test,Aumento 100%,23.0,46.0,0.07
+108,0.07,0.5,False,5.0,Pain at rest (NRSP 0-10),Riduzione 2 punti,2.0,0.0,0.0499999999999999
+108,0.07,0.5,False,6.0,Sensory-motor control (Romberg test),Aumento 50%,11.0,16.5,0.0299999999999999
+108,0.07,0.5,False,7.0,Pain at activity (NRSP 0-10),Riduzione 1 punto,4.0,3.0,0.03
+109,0.15,0.52,False,1.0,Hip Functional measure (HOOS -JR),Aumento 20%,66.0,79.2,0.17
+109,0.15,0.52,False,2.0,Time up and go test,Aumento 30%,16.0,20.8,0.08
+109,0.15,0.52,False,3.0,Pain at rest (NRSP 0-10),Riduzione 2 punti,2.0,0.0,0.0699999999999999
+109,0.15,0.52,False,4.0,hip abductors strength,Aumento 20%,125.0,150.0,0.05
+110,0.04,0.52,False,1.0,hip abduction active ROM,Aumento 100%,15.0,30.0,0.1099999999999999
+110,0.04,0.52,False,2.0,Sensory-motor control (Romberg test),Aumento 100%,12.0,24.0,0.09
+110,0.04,0.52,False,3.0,Hip Functional measure (HOOS -JR),Aumento 10%,68.0,74.80000000000001,0.09
+110,0.04,0.52,False,4.0,% muscle strength deficit compared with the non-surgical limb (global strength),Riduzione 50%,15.0,7.5,0.0899999999999999
+110,0.04,0.52,False,5.0,Time up and go test,Aumento 20%,18.0,21.6,0.06
+110,0.04,0.52,False,6.0,MMT hip flexors strength,Aumento 20%,4.0,4.8,0.04
+111,0.07,0.5,False,1.0,% muscle strength deficit compared with the non-surgical limb (global strength),Riduzione 70%,25.0,7.5,0.1099999999999999
+111,0.07,0.5,False,2.0,hip flexion active ROM,Aumento 30%,85.0,110.5,0.09
+111,0.07,0.5,False,3.0,Hip Functional measure (HOOS -JR),Aumento 30%,61.0,79.3,0.0899999999999999
+111,0.07,0.5,False,4.0,hip extension active ROM,Aumento 50%,5.0,7.5,0.0499999999999999
+111,0.07,0.5,False,5.0,Sensory-motor control (Romberg test),Aumento 20%,14.0,16.8,0.05
+111,0.07,0.5,False,6.0,hip lateral rotation active ROM,Aumento 30%,10.0,13.0,0.0399999999999999
+112,0.04,0.45,True,,TARGET_NOT_REACHABLE,Cannot reach threshold,,,0.0
+113,0.02,0.52,False,1.0,Sensory-motor control (Romberg test),Aumento 100%,8.0,16.0,0.11
+113,0.02,0.52,False,2.0,6 Minute Walk Test,Aumento 50%,330.0,495.0,0.1
+113,0.02,0.52,False,3.0,Time up and go test,Aumento 20%,19.0,22.8,0.0799999999999999
+113,0.02,0.52,False,4.0,Pain at activity (NRSP 0-10),Riduzione 5 punti,8.0,3.0,0.07
+113,0.02,0.52,False,5.0,Berg Balance test,Aumento 100%,12.0,24.0,0.06
+113,0.02,0.52,False,6.0,MMT hip extensors strength,Aumento 70%,2.0,3.4,0.0399999999999999
+113,0.02,0.52,False,7.0,Berg Balance test,Aumento 30%,24.0,31.200000000000003,0.04
+114,0.07,0.52,False,1.0,% muscle strength deficit compared with the non-surgical limb (global strength),Riduzione 90%,30.0,3.0,0.1099999999999999
+114,0.07,0.52,False,2.0,Berg Balance test,Aumento 50%,17.0,25.5,0.09
+114,0.07,0.52,False,3.0,hip flexion active ROM,Aumento 50%,80.0,120.0,0.06
+114,0.07,0.52,False,4.0,Sensory-motor control (Romberg test),Aumento 70%,6.0,10.2,0.06
+114,0.07,0.52,False,5.0,hip abduction active ROM,Aumento 30%,10.0,13.0,0.0399999999999999
+114,0.07,0.52,False,6.0,hip abduction active ROM,Aumento 100%,13.0,26.0,0.0399999999999999
+114,0.07,0.52,False,7.0,Sensory-motor control (Romberg test),Aumento 70%,10.2,17.34,0.05
+115,0.06,0.52,False,1.0,hip abduction active ROM,Aumento 100%,15.0,30.0,0.11
+115,0.06,0.52,False,2.0,hip extension active ROM,Aumento 50%,5.0,7.5,0.1
+115,0.06,0.52,False,3.0,% muscle strength deficit compared with the non-surgical limb (global strength),Riduzione 70%,20.0,6.0,0.0799999999999999
+115,0.06,0.52,False,4.0,Hip Functional measure (HOOS -JR),Aumento 20%,64.0,76.8,0.07
+115,0.06,0.52,False,5.0,Time up and go test,Aumento 20%,19.0,22.8,0.06
+115,0.06,0.52,False,6.0,hip medial rotation active ROM,Aumento 30%,5.0,6.5,0.04
+116,0.0,0.44,True,,TARGET_NOT_REACHABLE,Cannot reach threshold,,,0.0
+117,0.07,0.53,False,1.0,Hip Functional measure (HOOS -JR),Aumento 20%,64.0,76.8,0.1099999999999999
+117,0.07,0.53,False,2.0,hip flexion active ROM,Aumento 50%,80.0,120.0,0.08
+117,0.07,0.53,False,3.0,% muscle strength deficit compared with the non-surgical limb (global strength),Riduzione 50%,20.0,10.0,0.07
+117,0.07,0.53,False,4.0,Time up and go test,Aumento 20%,17.0,20.4,0.06
+117,0.07,0.53,False,5.0,Pain at rest (NRSP 0-10),Riduzione 2 punti,2.0,0.0,0.0499999999999999
+117,0.07,0.53,False,6.0,hip abduction active ROM,Aumento 30%,20.0,26.0,0.0499999999999999
+117,0.07,0.53,False,7.0,hip medial rotation active ROM,Aumento 30%,5.0,6.5,0.04
+118,0.01,0.5,False,1.0,hip abduction active ROM,Aumento 30%,20.0,26.0,0.1399999999999999
+118,0.01,0.5,False,2.0,Hip Functional measure (HOOS -JR),Aumento 10%,66.0,72.60000000000001,0.11
+118,0.01,0.5,False,3.0,% muscle strength deficit compared with the non-surgical limb (global strength),Riduzione 50%,15.0,7.5,0.0999999999999999
+118,0.01,0.5,False,4.0,Sensory-motor control (Romberg test),Aumento 100%,12.0,24.0,0.09
+118,0.01,0.5,False,5.0,MMT hip flexors strength,Aumento 20%,4.0,4.8,0.0499999999999999
+119,0.13,0.52,False,1.0,hip abduction active ROM,Aumento 100%,15.0,30.0,0.1699999999999999
+119,0.13,0.52,False,2.0,% muscle strength deficit compared with the non-surgical limb (global strength),Riduzione 70%,25.0,7.5,0.1
+119,0.13,0.52,False,3.0,hip flexion active ROM,Aumento 30%,90.0,117.0,0.0499999999999999
+119,0.13,0.52,False,4.0,Sensory-motor control (Romberg test),Aumento 20%,14.0,16.8,0.0399999999999999
+119,0.13,0.52,False,5.0,Berg Balance test,Aumento 50%,30.0,45.0,0.03
+120,0.0,0.42,True,,TARGET_NOT_REACHABLE,Cannot reach threshold,,,0.0
+121,0.04,0.5,False,1.0,hip abduction active ROM,Aumento 20%,22.0,26.4,0.12
+121,0.04,0.5,False,2.0,% muscle strength deficit compared with the non-surgical limb (global strength),Riduzione 50%,15.0,7.5,0.09
+121,0.04,0.5,False,3.0,hip flexion active ROM,Aumento 20%,100.0,120.0,0.0499999999999999
+121,0.04,0.5,False,4.0,Hip Functional measure (HOOS -JR),Aumento 20%,66.0,79.2,0.06
+121,0.04,0.5,False,5.0,hip medial rotation active ROM,Aumento 30%,5.0,6.5,0.0499999999999999
+121,0.04,0.5,False,6.0,Pain at rest (NRSP 0-10),Riduzione 2 punti,2.0,0.0,0.05
+121,0.04,0.5,False,7.0,hip medial rotation active ROM,Aumento 70%,6.5,11.05,0.0399999999999999
+122,0.01,0.5,False,1.0,% muscle strength deficit compared with the non-surgical limb (global strength),Riduzione 50%,15.0,7.5,0.12
+122,0.01,0.5,False,2.0,hip abduction active ROM,Aumento 20%,22.0,26.4,0.0799999999999999
+122,0.01,0.5,False,3.0,hip flexion active ROM,Aumento 20%,100.0,120.0,0.05
+122,0.01,0.5,False,4.0,Hip Functional measure (HOOS -JR),Aumento 20%,66.0,79.2,0.0399999999999999
+122,0.01,0.5,False,5.0,Pain at rest (NRSP 0-10),Riduzione 3 punti,3.0,0.0,0.0499999999999999
+122,0.01,0.5,False,6.0,hip medial rotation active ROM,Aumento 30%,5.0,6.5,0.04
+122,0.01,0.5,False,7.0,hip medial rotation active ROM,Aumento 70%,6.5,11.05,0.0399999999999999
+122,0.01,0.5,False,8.0,Berg Balance test,Aumento 70%,27.0,45.9,0.0399999999999999
+122,0.01,0.5,False,9.0,Pain at activity (NRSP 0-10),Riduzione 3 punti,6.0,3.0,0.03
