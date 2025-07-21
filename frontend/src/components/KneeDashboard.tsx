@@ -10,19 +10,36 @@ interface KneeData {
 const KneeDashboard: React.FC = () => {
   const [kneeData, setKneeData] = useState<KneeData | null>(null);
   const [activePatient, setActivePatient] = useState<string | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     axios.get('http://127.0.0.1:5000/api/knee-data')
       .then(response => {
-        setKneeData(response.data);
+        if (response.data && response.data.model_results) {
+          setKneeData(response.data);
+        } else {
+          setError('Received malformed data from the server.');
+        }
+        setLoading(false);
       })
-      .catch(error => {
-        console.error("There was an error fetching the knee data!", error);
+      .catch(err => {
+        console.error("There was an error fetching the knee data!", err);
+        setError('Failed to fetch data from the server.');
+        setLoading(false);
       });
   }, []);
 
+  if (loading) {
+    return <div className="text-center p-4">Loading Knee Data...</div>;
+  }
+  
+  if (error) {
+    return <div className="text-center p-4 text-red-500">{error}</div>;
+  }
+
   if (!kneeData) {
-    return <div>Loading Knee Data...</div>;
+    return <div className="text-center p-4">No knee data available.</div>;
   }
 
   const { model_results: results, patient_data: patients } = kneeData;

@@ -10,19 +10,36 @@ interface HipData {
 const HipDashboard: React.FC = () => {
   const [hipData, setHipData] = useState<HipData | null>(null);
   const [activePatient, setActivePatient] = useState<string | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     axios.get('http://127.0.0.1:5000/api/hip-data')
       .then(response => {
-        setHipData(response.data);
+        if (response.data && response.data.model_results) {
+          setHipData(response.data);
+        } else {
+          setError('Received malformed data from the server.');
+        }
+        setLoading(false);
       })
-      .catch(error => {
-        console.error("There was an error fetching the hip data!", error);
+      .catch(err => {
+        console.error("There was an error fetching the hip data!", err);
+        setError('Failed to fetch data from the server.');
+        setLoading(false);
       });
   }, []);
 
+  if (loading) {
+    return <div className="text-center p-4">Loading Hip Data...</div>;
+  }
+  
+  if (error) {
+    return <div className="text-center p-4 text-red-500">{error}</div>;
+  }
+
   if (!hipData) {
-    return <div>Loading Hip Data...</div>;
+    return <div className="text-center p-4">No hip data available.</div>;
   }
 
   const { model_results: results, patient_data: patients } = hipData;
