@@ -78,7 +78,7 @@ const KneeDashboard: React.FC = () => {
               <YAxis />
               <Tooltip />
               <Legend />
-              <Bar dataKey="ROM-Flex" name="ROM-Flex Score">
+              <Bar dataKey="knee flexion active ROM" name="Knee Flexion Active ROM">
                 {patients.map((entry: any) => (
                   <Cell 
                     key={`cell-${entry.Patient_ID}`} 
