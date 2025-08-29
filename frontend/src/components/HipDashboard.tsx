@@ -14,7 +14,7 @@ const HipDashboard: React.FC = () => {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    axios.get('http://127.0.0.1:5000/api/hip-data')
+    axios.get('https://dashboardthserver.onrender.com/api/hip-data')
       .then(response => {
         if (response.data && response.data.model_results) {
           setHipData(response.data);
